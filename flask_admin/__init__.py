@@ -1,1 +1,6 @@
-from .base import expose, Admin, BaseView, AdminIndexView
+__version__ = '1.5.3'
+__author__ = 'Flask-Admin team'
+__email__ = 'serge.koval+github@gmail.com'
+
+
+from .base import expose, expose_plugview, Admin, BaseView, AdminIndexView  # noqa: F401
